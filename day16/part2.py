@@ -154,7 +154,7 @@ def find_tile(map, tile):
     return (-1, -1)
 
 
-with open("input.txt") as f:
+with open("input2.txt") as f:
     field = f.read().split("\n")[:-1]
 
     start_x, start_y = find_tile(field, "S")
@@ -177,9 +177,9 @@ with open("input.txt") as f:
             best_paths,
         )
 
-    print(best_paths)
+    # print(best_paths)
 
-    # draw_map(field, map(lambda pos: (pos[0], pos[1], "O"), best_paths))
+    draw_map(field, map(lambda pos: (pos[0], pos[1], "O"), best_paths))
 
     print(len(set(best_paths)))
     # finish_cost, _ = finishes[0]

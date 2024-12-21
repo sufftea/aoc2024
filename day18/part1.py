@@ -39,18 +39,6 @@ def find_path(obstacles, width, height, second):
         if (cx, cy) == (width - 1, height - 1):
             return curr_cost
 
-        # print(
-        #     f"""
-        #     visited: {len(visited)}
-        #     to_visit: {len(to_visit)}
-        #
-        #     curr_cost: {curr_cost}
-        # """
-        # )
-
-        # draw_map(field, [(cx, cy, "O")])
-        # print()
-
         next_cost = curr_cost + 1
         for nei in get_neis(cx, cy):
             nx, ny = nei

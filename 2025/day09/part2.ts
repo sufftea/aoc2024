@@ -160,15 +160,22 @@ function verifyBox(
 
 /*
 
-................
-.......#XXX#....
-.......X...X....
-..#XXXX#...X....
-..X........X....
-..#XXXXXX#.X###.
-.........X.X###.
-.........#X#....
-................
+...............
+  #XXXXXXXXXXXXXXXXXXXXXXXXXX#
+  #XXXXXXXXXXXXXXXXXXXXXX#XXXX
+                         XXXXX
+                         XXXXX
+                         XXXXX
+                         XXXXX
+                         XXXXX
+             ?           XXXXX
+                         XXXXX
+                         XXXXX
+                         XXXXX
+                         XXXXX
+                         XXXXX
+                         #XXX#
+
 
 */
 
